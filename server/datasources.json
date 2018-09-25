@@ -2,5 +2,11 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "mongo": {
+    "url": "mongodb://127.0.0.1/test",
+    "name": "mongo",
+    "connector": "mongodb",
+    "enableGeoIndexing": true
   }
 }
